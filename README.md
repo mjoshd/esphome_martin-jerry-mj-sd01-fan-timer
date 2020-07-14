@@ -1,4 +1,4 @@
-# Martin Jerry Dimmer MJ-SD01 -> Fan Timer
+# Martin Jerry Dimmer MJ-SD01 -> Exhaust Fan Timer
 
 Device:
 
@@ -11,7 +11,15 @@ Links:
 
 [2-pack (Amazon)](https://www.amazon.com/gp/product/B07HJSJ6VG/ref=as_li_tl?ie=UTF8&tag=mjoshd-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B07HJSJ6VG&linkId=66a66a0d5f5648cb25820c7cff62e0aa)
 
- <br>
+<br>
+
+## Warning!!
+
+**Only use this for low-power/energy-efficient fans! DO NOT connect this device to a heater, ever!**
+
+*Be 100% certain that the connected load will not exceed the switch's limited power handling capabilities!*
+
+<br>
 
 ### Disclaimer
 
