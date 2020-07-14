@@ -16,6 +16,8 @@ Down button - decrease timer.
 
 Down button long press - 30 minute timer.
 
+Main button - toggle on/off.
+
 <br>
 
 #### Device:
