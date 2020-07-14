@@ -4,17 +4,17 @@ Info:
 
 Offers 10, 20, 30, and 60 minute timers as well as an always-on mode.
 
-Uses the LEDs to display remaining run time.
+Uses the LEDs to display time remaining.
 
 Defaults to 10 minute timer with any button press or being turned on from Home Assistant.
 
 Up button - increase timer.
 
-Up button long press - skip directly to always-on mode.
+Up button long press - always-on mode.
 
 Down button - decrease timer.
 
-Down button long press - skip directly to 30 minute timer.
+Down button long press - 30 minute timer.
 
 <br>
 
