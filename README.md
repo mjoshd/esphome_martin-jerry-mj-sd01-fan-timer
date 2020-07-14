@@ -1,6 +1,6 @@
 # Martin Jerry Dimmer MJ-SD01 -> Exhaust Fan Timer
 
-Info:
+#### Info:
 
 Offers 10, 20, 30, and 60 minute timers as well as an always-on mode.
 
@@ -18,12 +18,12 @@ Down button long press - 30 minute timer.
 
 <br>
 
-Device:
+#### Device:
 
 <img src="martin-jerry-mj-sd01-dimmer.jpg" alt="Martin Jerry Dimmer MJ-SD01" width="480" />
 
 
-Links:
+#### Links:
 
 [1-pack (Amazon)](https://www.amazon.com/gp/product/B07FXYSVR1/ref=as_li_tl?ie=UTF8&tag=mjoshd-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B07FXYSVR1&linkId=9f97b952ef335b2d3f82b207eb8a27f1)
 
