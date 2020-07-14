@@ -21,7 +21,15 @@ substitutions:
   friendly_name: Bathroom Fan   # Displayed in HA frontend
   long_press_min: .4s   # minimum time to activate long-press action
   long_press_max: 3s   # maximum time to activate long-press action
-  ip_address: !secret upstairs_bathroom_fan_ip   # use /config/esphome/secrets.yaml
+  wifi_ssid: !secret wifi_ssid   # use /config/esphome/secrets.yaml
+  wifi_password: !secret wifi_password   # use /config/esphome/secrets.yaml
+  static_ip: !secret bathroom_fan_ip   # use /config/esphome/secrets.yaml
+  gateway: !secret wifi_gateway   # use /config/esphome/secrets.yaml
+  subnet: !secret wifi_subnet   # use /config/esphome/secrets.yaml
+  dns1: !secret wifi_dns1   # use /config/esphome/secrets.yaml
+  ap_password: !secret esphome_ap_password   # use /config/esphome/secrets.yaml
+  api_password: !secret esphome_api_password   # use /config/esphome/secrets.yaml
+  ota_password: !secret esphome_ota_password   # use /config/esphome/secrets.yaml
 
 
 
@@ -35,16 +43,16 @@ esphome:
 
 wifi:
 # https://esphome.io/components/wifi
-  ssid: !secret wifi_ssid   # use /config/esphome/secrets.yaml
-  password: !secret wifi_password   # use /config/esphome/secrets.yaml
+  ssid: ${wifi_ssid}
+  password: ${wifi_password}
   manual_ip:
-    static_ip: ${ip_address}
-    gateway: !secret wifi_gateway   # use /config/esphome/secrets.yaml
-    subnet: !secret wifi_subnet   # use /config/esphome/secrets.yaml
-    dns1: !secret wifi_dns1   # use /config/esphome/secrets.yaml
+    static_ip: ${static_ip}
+    gateway: ${gateway}
+    subnet: ${subnet}
+    dns1: ${dns1}
   ap:
-    ssid: ${friendly_name} E-AP
-    password: !secret esphome_ap_password   # use /config/esphome/secrets.yaml
+    ssid: ${friendly_name} AP
+    password: ${ap_password}
 
 
 
@@ -67,13 +75,13 @@ logger:
 
 api:
 # https://esphome.io/components/api
-  password: !secret esphome_api_password   # use /config/esphome/secrets.yaml
+  password: ${api_password}
 
 
 
 ota:
 # https://esphome.io/components/ota
-  password: !secret esphome_ota_password   # use /config/esphome/secrets.yaml
+  password: ${ota_password}
 
 
 
