@@ -1,5 +1,17 @@
 # Martin Jerry Dimmer MJ-SD01 -> Exhaust Fan Timer
 
+Info:
+
+Offers 10, 20, 30, and 60 minute timers as well as an always-on option.
+
+Defaults to 10 minute timer with any button press or being turned on from Home Assistant.
+
+Up button long press - skip directly to always-on mode.
+
+Down button long press - skip directly to 30 minute timer.
+
+<br>
+
 Device:
 
 <img src="martin-jerry-mj-sd01-dimmer.jpg" alt="Martin Jerry Dimmer MJ-SD01" width="480" />
