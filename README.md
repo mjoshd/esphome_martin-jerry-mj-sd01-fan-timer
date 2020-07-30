@@ -39,6 +39,8 @@ Main button - toggle on/off.
 
 *Be 100% certain that the connected load will not exceed the switch's limited power handling capabilities!*
 
+Power handling capabilities can be found on the [Martin Jerry MJ-SD01 support page](https://www.martinjerry.com/sd01support) under the "Specifications:" section.
+
 <br>
 
 ### Disclaimer
