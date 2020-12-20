@@ -18,7 +18,7 @@ Uses the LEDs to display time selection and turns off LEDs as remaining time dec
 
 While off, pressing any button will turn on power and start a 10 minute timer.
 
-|Button|Tap (off)|Tap (on)|Long press|
+|Button|Tap while off|Tap while on|Long press while off or on|
 |:---:|:---:|:---:|:---:|
 |up|10m timer|increase timer|always-on/timer disabled**|
 |down|10m timer|decrease timer|30 minute timer|
