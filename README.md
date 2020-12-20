@@ -4,19 +4,27 @@
 
 Offers 10, 20, 30, and 60 minute timers as well as an always-on mode.
 
-Uses the LEDs to display time remaining.
+Uses the LEDs to display time selection and turns off LEDs as remaining time decreases.
 
-Defaults to 10 minute timer with any button press or being turned on from Home Assistant.
+|Always-on|60m|30m|20m|10m||
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|X|||||led 5|
+||X||||led 4|
+||X|X|||led 3|
+||X|X|X||led 2|
+|X|X|X|X|X|led 1|
 
-Up button - increase timer.
+|Button|Tap|Long press|
+|---|---|---|
+|up|increase timer|always-on/timer disabled**|
+|down|decrease timer|30 minute timer|
+|power|10m timer/power-off||
 
-Up button long press - always-on mode.
+While off, pressing any button will turn on power and start a 10 minute timer.
 
-Down button - decrease timer.
+Turning on from Home Assistant will start a 10 minute timer.
 
-Down button long press - 30 minute timer.
-
-Main button - toggle on/off.
+** The always-on mode can also be enabled by pressing the up/increase-timer button again after reaching the 60m setting. While always-on is enabled, pressing either the down/decrease-timer button or the power button will exit the always-on mode.
 
 <br>
 
