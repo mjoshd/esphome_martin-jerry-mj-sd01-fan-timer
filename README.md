@@ -14,13 +14,15 @@ Uses the LEDs to display time selection and turns off LEDs as remaining time dec
 ||X|X|X||led 2|
 |X|X|X|X|X|led 1|
 
-|Button|Tap|Long press|
-|---|---|---|
-|up|increase timer|always-on/timer disabled**|
-|down|decrease timer|30 minute timer|
-|power|10m timer/power-off||
+<br>
 
 While off, pressing any button will turn on power and start a 10 minute timer.
+
+|Button|Tap (off)|Tap (on)|Long press|
+|:---:|:---:|:---:|:---:|
+|up|10m timer|increase timer|always-on/timer disabled**|
+|down|10m timer|decrease timer|30 minute timer|
+|power|10m timer|power-off||
 
 Turning on from Home Assistant will start a 10 minute timer.
 
